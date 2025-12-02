@@ -128,7 +128,7 @@ def model_provider_func(pre_process=True, post_process=True, add_encoder=True, a
     # args.use_custom_fsdp = True
     # args.sequence_parallel = True
     # args.attention_backend = True
-    # args.expert_model_parallel_size = 1
+    # args.expert_model_parallel_size = 16
     # args.context_parallel_size = 2
     # args.attention_dropout = 0.0
     # args.hidden_dropout = 0.0

@@ -3043,7 +3043,7 @@ def parse_glm4_moe_config(megatron_lm_plugin, model, batch_data):
     megatron_lm_plugin.megatron_lm_default_args["rope_type"] = 'rope'
     megatron_lm_plugin.megatron_lm_default_args["rotary_percent"] = model.config.partial_rotary_factor
     # megatron_lm_plugin.megatron_lm_default_args["decoder_last_pipeline_num_layers"] = 1
-    megatron_lm_plugin.megatron_lm_default_args["context_parallel_size"] = model.config.context_parallel_size
+    # megatron_lm_plugin.megatron_lm_default_args["context_parallel_size"] = model.config.context_parallel_size
     # megatron_lm_plugin.megatron_lm_default_args["initial_loss_scale"] = 2**5
     megatron_lm_plugin.megatron_lm_default_args["norm_epsilon"] = 1e-3
     megatron_lm_plugin.megatron_lm_default_args["use_flash_attn"] = True
